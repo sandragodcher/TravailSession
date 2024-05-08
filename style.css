@@ -1,0 +1,417 @@
+/* ===== FONTS =====*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+/* ===== menu ICONS =====*/
+
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+
+/* ===== GLOBAL ===== */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  font-family: Roboto, Helvetica, Arial, Lucida, sans-serif;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+.container {
+  max-width: 1080px;
+  margin: auto;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.col25 {
+  float: left;
+  width: 25%;
+}
+
+.col50 {
+  float: left;
+  width: 50%;
+}
+
+.button {
+  font-family: Oswald, Helvetica, Arial, Lucida, sans-serif;
+  font-size: 20px;
+  line-height: 34px;
+  border: 2px solid;
+  text-decoration: none;
+  display: inline-block;
+  padding: 5px 20px;
+  letter-spacing: 4px;
+  color: #ffffff;
+}
+
+h2 {
+  font-family: Oswald, Helvetica, Arial, Lucida, sans-serif;
+  font-size: 60px;
+  line-height: 78px;
+  color: #333333;
+  margin: 0;
+}
+
+hr {
+  background-color: #eb4542;
+  height:3px;
+  width: 150px;
+  margin: auto;
+  border: none;
+}
+
+/* ===== GLOBAL MODIFIERS ===== */
+
+.pad-right {
+  padding-right: 30px;
+}
+
+.pad-left {
+  padding-left: 30px;
+}
+
+.logo {
+  float: left;
+  margin-left: 40px;
+}
+
+label {
+  display: none;
+  margin-right: 40px;
+  width: 23px;
+  float: right;
+}
+
+label:hover {
+  color: #20292f;
+}
+
+#toggle {
+  display: none;
+}
+
+.small-display-br {
+  display: none;
+}
+
+/* ===== SECTION 1 HOME ===== */
+
+.section1-home {
+  font-size: 20px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.image1a-home {
+  background: #20292f url("images/image1a-home.jpg") no-repeat; 
+  background-size : cover;
+  background-position: center center;
+  padding: 130px 0;
+}
+
+.section1-home h1 {
+  font-family: Oswald, Helvetica, Arial, Lucida, sans-serif;
+  font-size: 80px;
+  line-height: 104px;
+  margin: 0;
+  padding-bottom: 10px;
+}
+
+.section1-home .button {
+  margin: 20px 0px;
+}
+
+/* ===== SECTION 3 HOME ===== */
+
+.section3-home {
+  padding: 120px 0 280px 0;
+  margin: 0;
+}
+
+.texte3a-home {
+  font-size: 24px;
+  line-height: 34px;
+  color: #1a1a1a;
+  margin: 0;
+  padding: 40px 0;
+}
+
+.section3-home hr {
+  width: 145px;
+  margin: 0;
+}
+
+.texte3b-home {
+  font-size: 16px;
+  line-height: 30px;
+  color: #666666;
+  margin: 0;
+  padding: 65px 0;
+}
+
+.image3a-home {
+  background: #20292f url("images/image3a-home.jpg") no-repeat; 
+  background-size : cover;
+  background-position: center center;
+  padding: 335px 0;
+  margin-top: 90px;
+}
+
+/* ===== SECTION 4 HOME ===== */
+
+.section4-home {
+  text-align: center;
+}
+
+.image4a-home {
+  background: #20292f url("images/image4a-home.jpg") no-repeat; 
+  background-size : cover;
+  background-position: 77% center;
+  padding: 65px 0 933px 0;
+}
+
+.section4-home .button {
+  border: none;
+  padding: 7px 22px;
+  margin: 70px 0 20px 0;
+  background-color: #eb4542;
+}
+
+/* ===== SECTION 1 PACKAGES ===== */
+
+.section1-pack {
+  font-size: 16px;
+  padding: 70px 0;
+}
+
+.section1-pack .container {
+  padding-top: 120px;
+}
+
+.section1-pack .col50 {
+  padding-bottom: 45px;
+}
+
+.section1-pack h2 {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.section1-pack h4 {
+  font-family: Oswald, Helvetica, Arial, Lucida, sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 24px;
+  color: #1a1a1a;
+  margin-top: 0px;
+}
+
+.texte1a-pack {
+  line-height: 29px;
+  color: #666666;
+  padding-bottom: 16px;
+}
+
+.texte1b-pack {
+  line-height: 24px;
+  color: #1a1a1a;
+  padding-top: 16px;
+}
+
+.section1-pack .button {
+  margin: 40px 0 9px 0;
+  color: #1a1a1a;
+  background-color: #ffffff;
+}
+
+/* ===== SECTION 2 PACKAGES ===== */
+
+.section2-pack {
+  color: #ffffff;
+  text-align: center;
+}
+
+.image2a-pack {
+  background: #20292f url("images/image2a-pack.jpg") no-repeat; 
+  background-size : cover;
+  background-position: center center;
+  padding: 140px 0;
+}
+
+.texte2a-pack {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 24px;
+  letter-spacing: 4px;
+}
+
+.section2-pack h2 {
+  padding: 36px 0 55px 0;
+  color: #ffffff;
+}
+
+.section2-pack hr {
+  background-color: #ffffff;
+}
+
+.texte2b-pack {
+  font-size: 24px;
+  line-height: 34px;
+  padding: 66px 0;
+}
+
+/* ===== SECTION 3 PACKAGES ===== */
+
+.section3-pack {
+  padding: 65px 0 115px 0;
+  font-size: 16px;
+  line-height: 29px;
+}
+
+.section3-pack h2 {
+  padding: 50px 0;
+}
+
+.section3-pack hr {
+  margin: 0;
+}
+
+.texte3a-pack {
+  font-size: 24px;
+  line-height: 34px;
+  color: #1a1a1a;
+  padding: 65px 0 12px 0;
+}
+
+.section3-pack a {
+  color: #666666;
+  text-decoration: none;
+}
+
+/* ===== RESPONSIVE ===== */
+
+@media screen and (max-width: 1120px) {
+  .container {
+    padding: 0 20px;
+  }
+
+  label {
+    display: block;
+    cursor: pointer;
+  }
+
+  .col25 {
+    width: 50%;
+  }
+
+  .section3-pack .col25 {
+    width: 25%;
+  }
+
+  .pad-right {
+    padding-right: 10px;
+  }
+
+  .pad-left {
+    padding-left: 10px;
+  }
+}
+
+@media screen and (max-width: 891px) {
+  .section3-home {
+    padding-bottom: 55px;
+  }
+
+  .section3-home .col50 {
+    width: 100%;
+  }
+  
+  .image3a-home {
+    margin-top: 0px;
+  }
+
+  .section1-pack .col50 {
+    width: 100%;
+  }
+
+  .pad-right {
+    padding-right: 0px;
+  }
+
+  .pad-left {
+    padding-left: 0px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .section3-pack .col25 {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  #small-display-pack {
+    height: 70px;
+  }
+
+  .section1-home h1 {
+    font-size: 60px;
+    line-height: 78px;
+  }
+
+  h2 {
+    font-size: 48px;
+    line-height: 64px;
+  }
+
+  .col25 {
+    width: 100%;
+  }
+
+  .section3-pack .col25 {
+    width: 50%;
+  }
+
+  .col50 {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  #small-display-home {
+    height: 70px;
+  }
+
+  #small-display-home .logo {
+    text-align: center;
+  }
+
+  #small-display-home .small-display-br {
+    display: inline;
+  }
+
+  #small-display-home label {
+    margin-top: 11px;
+  }
+
+  #small-display-home .menu {
+    top: 70px;  
+  }
+}
