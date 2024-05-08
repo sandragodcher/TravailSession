@@ -144,6 +144,10 @@ label:hover {
   color: #20292f;
 }
 
+#toggle {
+  display: none;
+}
+
 .small-display-br {
   display: none;
 }
@@ -370,6 +374,14 @@ label:hover {
     display: block;
     border-bottom: 1px solid #999999;
     margin: 0;
+  }
+
+  #toggle:checked ~ .menu {
+    display: block;
+  }
+
+  #toggle:checked + label {
+    color: #20292f;
   }
 
   .col25 {
