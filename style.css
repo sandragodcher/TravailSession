@@ -87,11 +87,6 @@ hr {
   padding-left: 30px;
 }
 
-.logo {
-  float: left;
-  margin-left: 40px;
-}
-
 label {
   display: none;
   margin-right: 40px;
@@ -371,6 +366,18 @@ label:hover {
     height: 70px;
   }
 
+  #small-display-pack .logo {
+    text-align: center;
+  }
+
+  #small-display-pack .small-display-br {
+    display: inline;
+  }
+
+  #small-display-pack label {
+    margin-top: 11px;
+  }
+
   .section1-home h1 {
     font-size: 60px;
     line-height: 78px;
@@ -411,7 +418,4 @@ label:hover {
     margin-top: 11px;
   }
 
-  #small-display-home .menu {
-    top: 70px;  
-  }
 }
